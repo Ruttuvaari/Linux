@@ -10,9 +10,9 @@ user_pref("media.eme.enabled", true); // Enable DRM-controlled content
 user_pref("widget.gtk.overlay-scrollbars.enabled", false); // Always show scrollbars
 
 // Home: New Windows and Tabs
-user_pref("browser.startup.page", 1); //Start; Homepage
-user_pref("browser.startup.homepage", "about:home"); //Homepage
-user_pref("browser.newtabpage.enabled", true); //New tab; Homepage
+user_pref("browser.startup.page", 1); // Start; Homepage
+user_pref("browser.startup.homepage", "about:home"); // Homepage
+user_pref("browser.newtabpage.enabled", true); // New tab; Homepage
 
 // Home: Firefox Home Content
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 4); // Topsites 4 rows
@@ -24,7 +24,7 @@ user_pref("browser.newtabpage.activity-stream.section.highlights.includeDownload
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false); // Disable pocket
 
 // Search: Search Bar
-user_pref("keyword.enabled", true); //search from the urlbar
+user_pref("keyword.enabled", true); // Search from the urlbar
 
 // Privacy & Security: Logins and Passwords
 user_pref("signon.rememberSignons", false); // Disable save logins
