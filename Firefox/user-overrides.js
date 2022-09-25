@@ -26,6 +26,9 @@ user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket",
 // Search: Search Bar
 user_pref("keyword.enabled", true); // Search from the urlbar
 
+// Search: Search Suggestions
+user_pref("browser.urlbar.showSearchSuggestionsFirst", false); // Disable search suggestion first
+
 // Privacy & Security: Logins and Passwords
 user_pref("signon.rememberSignons", false); // Disable save logins
 user_pref("signon.autofillForms", false); // Disable autofill
