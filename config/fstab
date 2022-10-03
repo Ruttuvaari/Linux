@@ -1,1 +1,17 @@
-fstab
+# Create mount point
+sudo mkdir /nas
+cd /nas
+sudo mkdir AAA BBB CCC DDD EEE FFF GGG HHH III JJJ KKK
+
+# Login credentials file
+nano ~/.nas_credentials
+
+username=user
+password=password
+
+## Stale File Handle ##
+https://forums.unraid.net/topic/103945-psahow-to-proper-fix-for-smb-stale-file-handle/
+noserverino
+
+# Systemd
+
