@@ -1,1 +1,6 @@
 # Create mount point
+sudo mkdir /media
+cd /media
+sudo mkdir AAA BBB CCC DDD EEE FFF GGG HHH III JJJ
+
+# NFS systemd (unRAID)
