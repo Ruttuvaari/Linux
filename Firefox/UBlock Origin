@@ -1,1 +1,2 @@
-# Disable in LAN
+# Disable in LAN, Add to Trusted sites
+/^https?://192.168.*.*/
