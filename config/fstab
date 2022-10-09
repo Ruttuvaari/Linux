@@ -1,18 +1,19 @@
 # Create mount point
-sudo mkdir /media
-cd /media
+cd /mnt
+sudo mkdir /nas
+cd /nas
 sudo mkdir AAA BBB CCC DDD EEE FFF GGG HHH III JJJ KKK
 
 # NFS systemd (unRAID)
 
-IP:/mnt/user/AAA  /media/AAA  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/BBB  /media/BBB  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/CCC  /media/CCC  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/DDD  /media/DDD  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/EEE  /media/EEE  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/FFF  /media/FFF  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/GGG  /media/GGG  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/HHH  /media/HHH  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/III  /media/III  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/JJJ  /media/JJJ  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
-IP:/mnt/user/KKK  /media/KKK  nfs  _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10  0 0
+IP:/mnt/user/AAA	/mnt/nas/AAA	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/BBB	/mnt/nas/BBB	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/CCC	/mnt/nas/CCC	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/DDD	/mnt/nas/DDD	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/EEE	/mnt/nas/EEE	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/FFF	/mnt/nas/FFF	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/GGG	/mnt/nas/GGG	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/HHH	/mnt/nas/HHH	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/III	/mnt/nas/III	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/JJJ	/mnt/nas/JJJ	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
+IP:/mnt/user/KKK	/mnt/nas/KKK	nfs	_netdev,nofail,x-systemd.automount,x-systemd.mount-timeout=10	0	0
