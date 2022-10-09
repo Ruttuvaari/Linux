@@ -1,7 +1,7 @@
 # Create mount point
 cd /mnt
-sudo mkdir /nas
-cd /nas
+sudo mkdir nas
+cd /mnt/nas
 sudo mkdir AAA BBB CCC DDD EEE FFF GGG HHH III JJJ KKK
 
 # NFS systemd (unRAID)
