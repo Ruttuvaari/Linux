@@ -3,4 +3,10 @@
 
 # Add "I don't care about cookies" list
 # Filter lists import...
-https://www.i-dont-care-about-cookies.eu/abp/
+https://www.i-dont-care-about-cookies.eu/
+
+# Enable filters
+- AdGuard Annoyances
+- Fanboy’s Annoyance
+- uBlock filters – Annoyances
+- Regional
