@@ -1,5 +1,6 @@
 # Disable in LAN, Add to Trusted sites
 /^https?://192.168.*.*/
 
-# Add "I don't care about cookies" to custom list
+# Add "I don't care about cookies" list
+# Filter lists import...
 https://www.i-dont-care-about-cookies.eu/abp/
