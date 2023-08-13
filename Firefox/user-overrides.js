@@ -34,6 +34,7 @@ user_pref("browser.urlbar.showSearchSuggestionsFirst", false); // Disable search
 user_pref("signon.rememberSignons", false); // Disable save logins
 user_pref("signon.autofillForms", false); // Disable autofill
 user_pref("signon.generation.enabled", false); // Disable strong passwords
+user_pref("signon.firefoxRelay.feature", disabled); // Disable Firefox Relay
 user_pref("signon.management.page.breach-alerts.enabled", false); // Disable alerts
 
 // Privacy & Security: Forms and Autofill
