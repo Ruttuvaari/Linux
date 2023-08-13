@@ -1,6 +1,7 @@
 // Ruttuvaari's overrides
 
-// General: Language
+// General: Language and Appearance
+user_pref("layout.css.prefers-color-scheme.content-override", 0); // Dark mode
 user_pref("layout.spellcheckDefault", 0); // Disable spell check
 
 // General: DRM Management
