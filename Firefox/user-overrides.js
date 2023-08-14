@@ -47,6 +47,16 @@ user_pref("permissions.default.xr", 2); // Block new Virtual Reality requests
 user_pref("extensions.formautofill.addresses.enabled", false); // Disable autofill addresses
 user_pref("extensions.formautofill.creditCards.enabled", false); // Disable autofill credit cards
 
+// Privacy & Security: Security
+user_pref("browser.safebrowsing.malware.enabled", false); // Disable "Block dangerous and deceptive content"
+user_pref("browser.safebrowsing.phishing.enabled", false); // Disable "Block dangerous and deceptive content"
+user_pref("browser.safebrowsing.downloads.enabled", false); // Disable "Block dangerous downloads"
+user_pref("browser.safebrowsing.downloads.remote.block_potentially_unwanted", false); // Disable "Warn about unwanted software"
+user_pref("browser.safebrowsing.downloads.remote.block_uncommon", false); // Disable "Warn about uncommon software"
+
+// Privacy & Security: DNS over HTTPS
+user_pref("network.trr.mode", 5); // Use default DNS resolver
+
 // Sync
 user_pref("identity.fxaccounts.enabled", false); // Disable sync
 user_pref("extensions.pocket.enabled", false); // Disable pocket
