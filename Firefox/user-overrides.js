@@ -1,6 +1,6 @@
 // Ruttuvaari's overrides
 
-//  Tweaks: Frame Rate
+// Tweaks: Frame Rate
 user_pref("layout.frame_rate", 120); // Force frame rate
 
 // Tweaks: Hardware video acceleration
