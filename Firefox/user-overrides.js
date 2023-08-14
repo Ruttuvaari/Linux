@@ -1,5 +1,8 @@
 // Ruttuvaari's overrides
 
+// Hardware video acceleration
+user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
+
 // General: Language and Appearance
 user_pref("layout.css.prefers-color-scheme.content-override", 0); // Dark mode
 user_pref("layout.spellcheckDefault", 0); // Disable spell check
