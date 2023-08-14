@@ -1,0 +1,5 @@
+# Enable Wayland (Sway)
+1. sudo nano /etc/environment
+2. Add line MOZ_ENABLE_WAYLAND=1
+3. Reboot
+4. Verify - printenv
