@@ -37,6 +37,12 @@ user_pref("signon.generation.enabled", false); // Disable strong passwords
 user_pref("signon.firefoxRelay.feature", false); // Disable Firefox Relay
 user_pref("signon.management.page.breach-alerts.enabled", false); // Disable alerts
 
+// Privacy & Security: Permissions
+user_pref("permissions.default.geo", 2); // Block new Location requests
+user_pref("permissions.default.camera", 2); // Block new Camera requests
+user_pref("permissions.default.microphone", 2); // Block new Microphone requests
+user_pref("permissions.default.xr", 2); // Block new Virtual Reality requests
+
 // Privacy & Security: Forms and Autofill
 user_pref("extensions.formautofill.addresses.enabled", false); // Disable autofill addresses
 user_pref("extensions.formautofill.creditCards.enabled", false); // Disable autofill credit cards
