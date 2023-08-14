@@ -1,7 +1,9 @@
 // Ruttuvaari's overrides
 
 // Hardware video acceleration
-user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
+// ### Enable "gfx.webrender.all" if about:support /Graphics/Compositing/ is not WebRender ###
+// ### Confirm GPU Decoding with nvtop (enable decoder from options) https://github.com/Syllo/nvtop ###
+// user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
 user_pref("media.ffmpeg.vaapi.enabled", true); // Enable VA-API
 
 // General: Language and Appearance
