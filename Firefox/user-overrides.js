@@ -2,6 +2,7 @@
 
 // Hardware video acceleration
 user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
+user_pref("media.ffmpeg.vaapi.enabled", true); // Enable VA-API
 
 // General: Language and Appearance
 user_pref("layout.css.prefers-color-scheme.content-override", 0); // Dark mode
