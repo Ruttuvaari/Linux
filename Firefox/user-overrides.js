@@ -10,6 +10,9 @@ user_pref("media.eme.enabled", true); // Enable DRM-controlled content
 // General: Browsing
 user_pref("widget.gtk.overlay-scrollbars.enabled", false); // Always show scrollbars
 
+// General: Bookmarks
+user_pref("browser.toolbars.bookmarks.visibility", always); // Always show bookmarks toolbar
+
 // Home: New Windows and Tabs
 user_pref("browser.startup.page", 1); // Start; Homepage
 user_pref("browser.startup.homepage", "about:home"); // Homepage
