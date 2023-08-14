@@ -1,6 +1,9 @@
 // Ruttuvaari's overrides
 
-// Hardware video acceleration
+//  Tweaks: Frame Rate
+user_pref("layout.frame_rate", 120); // Force frame rate
+
+// Tweaks: Hardware video acceleration
 // ### Enable "gfx.webrender.all" if about:support /Graphics/Compositing/ is not WebRender ###
 // ### Confirm GPU Decoding with nvtop (enable decoder from options) https://github.com/Syllo/nvtop ###
 // user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
