@@ -47,7 +47,7 @@ echo -e "Status: ${GREEN}Moving files${NC}"
 mv $Temp/{*.js,*.sh} $Profile
 
 echo -e "Status: ${GREEN}Cloning Ruttuvaari's user-overrides.js${NC}"
-wget -q https://raw.githubusercontent.com/Ruttuvaari/Linux/main/Firefox/user-overrides.js -P>
+wget -q https://raw.githubusercontent.com/Ruttuvaari/Linux/main/Firefox/user-overrides.js -P $Profile
 
 echo -e "Status: ${GREEN}Removing temp files${NC}"
 rm -rf $Temp
