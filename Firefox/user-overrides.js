@@ -9,6 +9,9 @@ user_pref("layout.frame_rate", 120); // Force frame rate
 // user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
 user_pref("media.ffmpeg.vaapi.enabled", true); // Enable VA-API
 
+// Tweaks: Bookmarks
+user_pref("browser.bookmarks.autoExportHTML", true); // Export bookmarks each time the browser shuts down
+
 // General: Language and Appearance
 user_pref("layout.css.prefers-color-scheme.content-override", 0); // Dark mode
 user_pref("layout.spellcheckDefault", 0); // Disable spell check
@@ -18,9 +21,6 @@ user_pref("media.eme.enabled", true); // Enable DRM-controlled content
 
 // General: Browsing
 user_pref("widget.gtk.overlay-scrollbars.enabled", false); // Always show scrollbars
-
-// General: Bookmarks
-// user_pref("browser.toolbars.bookmarks.visibility", always); // Always show bookmarks toolbar
 
 // Home: New Windows and Tabs
 user_pref("browser.startup.page", 1); // Start; Homepage
