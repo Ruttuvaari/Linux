@@ -9,6 +9,11 @@ user_pref("layout.frame_rate", 120); // Force frame rate
 // user_pref("gfx.webrender.all", true); // Hardware WebRender force enabled
 user_pref("media.ffmpeg.vaapi.enabled", true); // Enable VA-API
 
+// Tweaks: Cache
+user_pref("browser.cache.disk.enable", false); // Disable disk cache
+user_pref("browser.cache.memory.enable", true); // Enable RAM cache
+user_pref("browser.cache.memory.capacity", 1048576); // RAM cache size (KB) 1048576=1GB
+
 // Tweaks: Bookmarks
 user_pref("browser.bookmarks.autoExportHTML", true); // Export bookmarks each time the browser shuts down
 
