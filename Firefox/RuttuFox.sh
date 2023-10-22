@@ -63,3 +63,5 @@ echo -e "Status: ${GREEN}Running Arkenfox scripts${NC}"
 cd $Profile
 bash updater.sh
 bash prefsCleaner.sh
+
+# Launching Firefox
