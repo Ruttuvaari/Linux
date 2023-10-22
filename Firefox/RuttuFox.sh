@@ -11,3 +11,6 @@ NC='\033[0m' #No Color
 # Temp Folder
 Temp="/home/$USER/RuttuFoxTemp"
 
+# Shutting down Firefox
+echo -e "Status: ${GREEN}Shutting down Firefox${NC}"
+pkill -f firefox
