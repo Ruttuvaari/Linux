@@ -25,3 +25,5 @@ echo -e "Status: ${GREEN}Install dependencies${NC}"
 sudo pacman -S $Dependencies --needed
 
 # Creating a new Firefox profile
+echo -e "${RED}Give a name for the new firefox profile${NC}"
+read Profile_Name
