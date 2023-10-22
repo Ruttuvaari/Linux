@@ -37,3 +37,5 @@ Profile="/home/$USER/.mozilla/firefox/$Profile_Name"
 echo -e "Status: ${GREEN}Starting a new profile $Profile_Name${NC}"
 echo -e "${RED}DO NOT SHUT DOWN FIREFOX MANUALLY!${NC}"
 firefox -new-instance -P $Profile_Name &
+sleep 5
+pkill -f firefox
