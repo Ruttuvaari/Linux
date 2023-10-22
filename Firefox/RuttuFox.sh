@@ -65,3 +65,4 @@ bash updater.sh
 bash prefsCleaner.sh
 
 # Launching Firefox
+echo -e "Status: ${GREEN}Launching Firefox${NC}"
