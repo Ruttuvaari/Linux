@@ -41,3 +41,4 @@ sleep 5
 pkill -f firefox
 
 # Creating a temp folder
+echo -e "Status: ${GREEN}Creating a temp folder${NC}"
