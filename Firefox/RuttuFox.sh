@@ -14,3 +14,7 @@ Temp="/home/$USER/RuttuFoxTemp"
 # Shutting down Firefox
 echo -e "Status: ${GREEN}Shutting down Firefox${NC}"
 pkill -f firefox
+
+# Install dependencies
+echo -e "Status: ${GREEN}Install dependencies${NC}"
+sudo pacman -S firefox git libva-mesa-driver libva-utils ffmpeg nvtop --needed
