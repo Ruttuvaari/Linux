@@ -51,3 +51,4 @@ echo -e "Status: ${GREEN}Cloning Ruttuvaari's user-overrides.js${NC}"
 wget -q $RuttuFox -P $Profile
 
 # Moving files
+echo -e "Status: ${GREEN}Moving files${NC}"
