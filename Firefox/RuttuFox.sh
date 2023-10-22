@@ -23,3 +23,5 @@ pkill -f firefox
 # Install dependencies
 echo -e "Status: ${GREEN}Install dependencies${NC}"
 sudo pacman -S $Dependencies --needed
+
+# Creating a new Firefox profile
