@@ -32,3 +32,5 @@ firefox -CreateProfile "$Profile_Name /home/$USER/.mozilla/firefox/$Profile_Name
 
 ### Profile ###
 Profile="/home/$USER/.mozilla/firefox/$Profile_Name"
+
+# Starting a new profile
