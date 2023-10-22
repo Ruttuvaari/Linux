@@ -57,3 +57,5 @@ mv $Temp/{*.js,*.sh} $Profile
 # Removing temp files
 echo -e "Status: ${GREEN}Removing temp files${NC}"
 rm -rf $Temp
+
+# Arkenfox scripts
