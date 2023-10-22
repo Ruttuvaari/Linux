@@ -28,3 +28,4 @@ sudo pacman -S $Dependencies --needed
 echo -e "${RED}Give a name for the new firefox profile${NC}"
 read Profile_Name
 echo -e "Status: ${GREEN}Creating a new profile $Profile_Name${NC}"
+firefox -CreateProfile "$Profile_Name /home/$USER/.mozilla/firefox/$Profile_Name"
