@@ -52,3 +52,4 @@ wget -q $RuttuFox -P $Profile
 
 # Moving files
 echo -e "Status: ${GREEN}Moving files${NC}"
+mv $Temp/{*.js,*.sh} $Profile
