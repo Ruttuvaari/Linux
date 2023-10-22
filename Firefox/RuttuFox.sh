@@ -59,3 +59,4 @@ echo -e "Status: ${GREEN}Removing temp files${NC}"
 rm -rf $Temp
 
 # Arkenfox scripts
+echo -e "Status: ${GREEN}Running Arkenfox scripts${NC}"
