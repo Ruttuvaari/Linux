@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Variables
+### Variables ###
 
-# Colors
+### Colors ###
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 MAGENTA='\033[0;35m'
 NC='\033[0m' #No Color
 
-# Temp Folder
+### Temp Folder ###
 Temp="/home/$USER/RuttuFoxTemp"
 
-# Files
+### Files ###
 ArkenFox="https://github.com/arkenfox/user.js.git"
 RuttuFox="https://raw.githubusercontent.com/Ruttuvaari/Linux/main/Firefox/user-overrides.js"
 Dependencies="firefox git libva-mesa-driver libva-utils ffmpeg nvtop"
