@@ -60,3 +60,4 @@ rm -rf $Temp
 
 # Arkenfox scripts
 echo -e "Status: ${GREEN}Running Arkenfox scripts${NC}"
+cd $Profile
