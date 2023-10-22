@@ -55,3 +55,4 @@ echo -e "Status: ${GREEN}Moving files${NC}"
 mv $Temp/{*.js,*.sh} $Profile
 
 # Removing temp files
+echo -e "Status: ${GREEN}Removing temp files${NC}"
