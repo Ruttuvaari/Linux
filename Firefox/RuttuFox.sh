@@ -39,3 +39,5 @@ echo -e "${RED}DO NOT SHUT DOWN FIREFOX MANUALLY!${NC}"
 firefox -new-instance -P $Profile_Name &
 sleep 5
 pkill -f firefox
+
+# Creating a temp folder
