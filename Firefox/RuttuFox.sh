@@ -66,3 +66,4 @@ bash prefsCleaner.sh
 
 # Launching Firefox
 echo -e "Status: ${GREEN}Launching Firefox${NC}"
+firefox -new-instance -P $Profile_Name &
