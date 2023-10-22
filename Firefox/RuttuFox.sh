@@ -49,3 +49,5 @@ echo -e "Status: ${GREEN}Cloning Arkenfox user.js${NC}"
 git clone -q $ArkenFox $Temp
 echo -e "Status: ${GREEN}Cloning Ruttuvaari's user-overrides.js${NC}"
 wget -q $RuttuFox -P $Profile
+
+# Moving files
