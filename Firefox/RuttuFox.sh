@@ -45,3 +45,4 @@ echo -e "Status: ${GREEN}Creating a temp folder${NC}"
 mkdir $Temp
 
 # Cloning files
+echo -e "Status: ${GREEN}Cloning Arkenfox user.js${NC}"
