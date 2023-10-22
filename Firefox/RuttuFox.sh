@@ -44,4 +44,4 @@ pkill -f firefox
 echo -e "Status: ${GREEN}Creating a temp folder${NC}"
 mkdir $Temp
 
-# Copying files
+# Cloning files
