@@ -15,6 +15,7 @@ Temp="/home/$USER/RuttuFoxTemp"
 ArkenFox="https://github.com/arkenfox/user.js.git"
 RuttuFox="https://raw.githubusercontent.com/Ruttuvaari/Linux/main/Firefox/user-overrides.js"
 Dependencies="firefox git libva-mesa-driver libva-utils ffmpeg nvtop"
+Directory="/home/$USER/.mozilla/firefox"
 
 # Shutting down Firefox
 echo -e "Status: ${GREEN}Shutting down Firefox${NC}"
