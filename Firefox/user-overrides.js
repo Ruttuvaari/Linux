@@ -14,6 +14,9 @@ user_pref("browser.cache.disk.enable", false); // Disable disk cache
 user_pref("browser.cache.memory.enable", true); // Enable RAM cache
 user_pref("browser.cache.memory.capacity", 1048576); // RAM cache size (KB) 1048576=1GB
 
+// Tweaks: Tabs
+user_pref("browser.tabs.closeWindowWithLastTab", false); // Do not close the window when the last tab is closed
+
 // Tweaks: Bookmarks
 user_pref("browser.bookmarks.autoExportHTML", true); // Export bookmarks each time the browser shuts down
 
