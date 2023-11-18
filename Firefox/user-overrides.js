@@ -20,6 +20,9 @@ user_pref("browser.tabs.closeWindowWithLastTab", false); // Do not close the win
 // Tweaks: Bookmarks
 user_pref("browser.bookmarks.autoExportHTML", true); // Export bookmarks each time the browser shuts down
 
+// Tweaks: Session
+user_pref("browser.sessionstore.resume_from_crash", false); // Do not restore previous session after crash
+
 // General: Language and Appearance
 user_pref("layout.css.prefers-color-scheme.content-override", 0); // Dark mode
 user_pref("layout.spellcheckDefault", 0); // Disable spell check
