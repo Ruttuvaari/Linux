@@ -23,6 +23,9 @@ user_pref("browser.bookmarks.autoExportHTML", true); // Export bookmarks each ti
 // Tweaks: Session
 user_pref("browser.sessionstore.resume_from_crash", false); // Do not restore previous session after crash
 
+// Tweaks: Fullscreen
+user_pref("full-screen-api.ignore-widgets", true); // Full screen mode in the current window size
+
 // General: Language and Appearance
 user_pref("layout.css.prefers-color-scheme.content-override", 0); // Dark mode
 user_pref("layout.spellcheckDefault", 0); // Disable spell check
