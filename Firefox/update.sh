@@ -26,3 +26,11 @@ readarray -t data < <(find * -name "$File" -printf "%h\n")
 
 # Select the profile to update
 select Profile_Folder in "${data[@]}"; do
+if [ "$REPLY" -ge 1 ] && [ "$REPLY" -le ${#data[@]} ];
+  then
+    echo -e "${GREEN}You have selected a profile${NC} ${RED}$Profile_Folder${NC}"
+    break;
+  else
+    echo -e "${RED}Wrong selection:${NC}${GREEN} Select any number from 1-${#data[@]}${NC}"
+  fi
+done
