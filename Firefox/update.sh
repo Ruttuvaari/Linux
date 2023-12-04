@@ -19,3 +19,7 @@ File="user-overrides.js"
 # Shutting down Firefox
 echo -e "Status: ${GREEN}Shutting down Firefox${NC}"
 pkill -f firefox
+
+# Looking for profiles to update
+cd $Directory
+readarray -t data < <(find * -name "$File" -printf "%h\n")
