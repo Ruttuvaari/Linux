@@ -41,3 +41,7 @@ Profile_Name="${Profile_Folder#*.}"
 
 # Deleting an existing file
 cd $Profile_Path && rm $File
+
+# Cloning files
+echo -e "Status: ${GREEN}Cloning Ruttuvaari's user-overrides.js${NC}"
+wget -q $RuttuFox -P $Profile_Path
