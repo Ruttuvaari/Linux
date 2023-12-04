@@ -34,3 +34,7 @@ if [ "$REPLY" -ge 1 ] && [ "$REPLY" -le ${#data[@]} ];
     echo -e "${RED}Wrong selection:${NC}${GREEN} Select any number from 1-${#data[@]}${NC}"
   fi
 done
+
+### Profile ###
+Profile_Path="$Directory/$Profile_Folder"
+Profile_Name="${Profile_Folder#*.}"
