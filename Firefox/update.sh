@@ -38,3 +38,6 @@ done
 ### Profile ###
 Profile_Path="$Directory/$Profile_Folder"
 Profile_Name="${Profile_Folder#*.}"
+
+# Deleting an existing file
+cd $Profile_Path && rm $File
