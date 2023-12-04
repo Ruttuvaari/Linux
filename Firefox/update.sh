@@ -12,9 +12,7 @@ NC='\033[0m' #No Color
 Temp="/home/$USER/RuttuFoxTemp"
 
 ### Files ###
-ArkenFox="https://github.com/arkenfox/user.js.git"
 RuttuFox="https://raw.githubusercontent.com/Ruttuvaari/Linux/main/Firefox/user-overrides.js"
-Dependencies="firefox git libva-mesa-driver lib32-libva-mesa-driver libva-utils ffmpeg nvtop"
 Directory="/home/$USER/.mozilla/firefox"
 
 # Shutting down Firefox
