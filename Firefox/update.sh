@@ -45,3 +45,13 @@ cd $Profile_Path && rm $File
 # Cloning files
 echo -e "Status: ${GREEN}Cloning Ruttuvaari's user-overrides.js${NC}"
 wget -q $RuttuFox -P $Profile_Path
+
+# Arkenfox scripts
+echo -e "Status: ${GREEN}Running Arkenfox scripts${NC}"
+cd $Profile_Path
+bash updater.sh
+bash prefsCleaner.sh
+
+# Launching Firefox
+echo -e "Status: ${GREEN}Launching Firefox${NC}"
+firefox -new-instance -P $Profile_Name &
