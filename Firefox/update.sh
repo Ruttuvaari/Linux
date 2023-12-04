@@ -23,3 +23,6 @@ pkill -f firefox
 # Looking for profiles to update
 cd $Directory
 readarray -t data < <(find * -name "$File" -printf "%h\n")
+
+# Select the profile to update
+select Profile_Folder in "${data[@]}"; do
