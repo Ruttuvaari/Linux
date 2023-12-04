@@ -14,6 +14,7 @@ Temp="/home/$USER/RuttuFoxTemp"
 ### Files ###
 RuttuFox="https://raw.githubusercontent.com/Ruttuvaari/Linux/main/Firefox/user-overrides.js"
 Directory="/home/$USER/.mozilla/firefox"
+File="user-overrides.js"
 
 # Shutting down Firefox
 echo -e "Status: ${GREEN}Shutting down Firefox${NC}"
