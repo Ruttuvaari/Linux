@@ -18,10 +18,12 @@ echo -e "Status: ${GREEN}Shutting down Firefox${NC}"
 pkill -f firefox
 
 # Looking for profiles to update
+echo -e "Status: ${GREEN}Looking for profiles to update${NC}"
 cd $Directory
 readarray -t data < <(find * -name "$File" -printf "%h\n")
 
 # Select the profile to update
+echo -e "Status: ${GREEN}Select the profile to update${NC}"
 select Profile_Folder in "${data[@]}"; do
 if [ "$REPLY" -ge 1 ] && [ "$REPLY" -le ${#data[@]} ];
   then
@@ -37,6 +39,7 @@ Profile_Path="$Directory/$Profile_Folder"
 Profile_Name="${Profile_Folder#*.}"
 
 # Deleting an existing file
+echo -e "Status: ${GREEN}Deleting an existing file${NC}"
 cd $Profile_Path && rm $File
 
 # Cloning files
